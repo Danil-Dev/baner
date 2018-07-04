@@ -1,0 +1,128 @@
+.banner	{
+	background-image: url(img/test-banner.png);
+	background-position: center, 0;
+	width: 100%;
+	height: 568px;
+}
+.logo{
+	width: 238px;
+	position: relative;
+	top: 164px;
+	left: 43%;
+}
+.koh{
+	width: 238px;
+}
+.znak_1{
+	position: absolute;
+	top: -161px;
+	left: 55px;
+}
+.znak_2 {
+	position: absolute;
+	top: -136px;
+	left: 179px;
+}
+.znak_3 {
+	position: absolute;
+	top: -48px;
+	left: 255px;
+}
+.znak_4 {
+	position: absolute;
+	top: 56.5px;
+	left: 292px;
+}
+.znak_5 {
+	position: absolute;
+	top: 155px;
+	left: 255px;
+}
+.znak_6 {
+	position: absolute;
+	top: 245px;
+	left: 180px;
+}
+.znak_7 {
+	position: absolute;
+	top: 272px;
+	left: 56.5px;
+}
+.znak_8 {
+	position: absolute;
+	top: 245px;
+	left: -72px;
+}
+.znak_9 {
+	position: absolute;
+	top: 155px;
+	left: -150px;
+}
+.znak_10 {
+	position: absolute;
+	top: 56.5px;
+	left: -180px;
+}
+.znak_11 {
+	position: absolute;
+	top: -47px;
+	left: -150px;
+}
+.znak_12 {
+	position: absolute;
+	top: -135px;
+	left: -72px;
+}
+.hov:hover{
+	background-image: url(img/hover.png);
+	background-repeat: no-repeat;
+}
+
+@media (max-width: 1000px) {
+	.znak_1{
+	top: -130px;
+
+}
+.znak_2 {
+	top: -100px;
+	left: 150px;
+}
+.znak_3 {
+	top: -25px;
+	left: 220px;
+}
+.znak_4 {
+
+	left: 242px;
+}
+.znak_5 {
+	top: 140px;
+	left: 220px;
+}
+.znak_6 {
+	top: 205px;
+	left: 155px;
+}
+.znak_7 {
+	top: 242px;
+}
+.znak_8 {
+	top: 205px;
+	left: -47px;
+}
+.znak_9 {
+	top: 140px;
+	left: -110px;
+}
+.znak_10 {
+	left: -130px;
+}
+.znak_11 {
+	top: -25px;
+	left: -110px;
+}
+.znak_12 {
+	top: -90px;
+	left: -47px;
+}
+}
